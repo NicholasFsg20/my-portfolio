@@ -4,14 +4,14 @@ import { green, grey,} from '@mui/material/colors';
 let theme = createTheme({
   palette: {
     primary: {
-      main: grey[700],
+      main: grey[900],
     },
     secondary: {
-      main: green[500],
+      main: green[400],
     },
   },
   typography: {
-    fontFamily: ['"Helvetica Neue"'].join(','),
+    fontFamily: "system-ui"
   }
 });
 
